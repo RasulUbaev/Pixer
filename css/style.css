@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Plus Jakarta Sans';
+    overflow-x: hidden;
 }
 
 .container {
@@ -23,15 +24,16 @@ body {
     height: 89px;
     margin: 0 auto; 
     border-bottom: 1px solid #EEEEF4;
+    z-index: 3;
 }
 
 .header__navigations {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 89px;
+    height: 88px;
     position: fixed;
-   
+    background-color: #FFFFFF;
 }
 
 .header__nav__ul {
